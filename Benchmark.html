@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+        <link rel="stylesheet" href="rangeStyles.css" />
+    </head>
+    <body>
+        <div>
+            <input type="file" value="Choose File" id="file" />
+            <select id="algo">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="heap">Heap Sort</option>
+                <option value="merge">Merge Sort</option>
+                <option value="quick">Quick Sort</option>
+                <option value="count">Counting Sort</option>
+                <option value="radix">Radix Sort</option>
+                <option value="bucket">Bucket Sort</option>
+                <option value="MQS">Modified Quick Sort</option>
+            </select>
+            <button id="calc">Calculate</button>
+            <h1 id="ans"></h1>
+            <p id="arr"></p>
+        </div>
+        <script type="module" src="benchmark.js"></script>
+    </body>
+</html>
